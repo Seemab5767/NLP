@@ -1,0 +1,18 @@
+# secrets
+.env
+*.key
+
+# outputs / caches
+outputs/
+*.zip
+gemini_cache.json
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+
+# datasets (keep the folder, not the files)
+data/*
+!data/README.md
